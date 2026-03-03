@@ -1,0 +1,28 @@
+.main-title{
+    text-align: center;
+    font-family: "Betania Patmos", cursive;
+}
+.main-title-div{
+    display: flex;
+    justify-content: center;
+    background-color: var(--header-color);
+    margin: 0px;
+    color: var(--text-color);
+    align-items: center;
+}
+.pokemon-title{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 10px;
+}
+body{
+    background-color: var(--fundo-color);
+    margin: 0px;
+}
+.poke-img{
+    height: 128px;
+}
+:root{
+    --fundo-color : #183973;
+    --header-color : #395a83;
+    --text-color : #5283c5;
+}
